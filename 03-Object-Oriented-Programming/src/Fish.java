@@ -5,8 +5,10 @@ public class Fish extends Animal{
 		super(name, age, height, eyeColor);
 	}
 	
+	// overriding the method defined in bird
+	// Override = Replace
 //	public void fly() {
-//		System.out.println(name + " is flying");
+//		System.out.println("Not able to fly");
 //	}
 	
 	public void move(){
