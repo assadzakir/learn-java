@@ -1,0 +1,14 @@
+// compiling java program
+-1 javac ExampleProgram.java
+
+// creating jar file
+-2 jar -cvfm myprogram.jar manifest.mf *.class
+
+// execute jar file
+-3 java -jar myprogram.jar
+
+//extract jar file
+-4 jar -xvf myprogram.jar
+
+//list jar file contents
+-5 jar -tvf myprogram.jar
