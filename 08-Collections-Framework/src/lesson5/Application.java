@@ -10,6 +10,12 @@ public class Application {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		/*
+		 * Ref
+		 * 
+		 * https://beginnersbook.com/2013/12/hashmap-in-java-with-example/
+		 * 
+		 * */
 		// Example 1
 
 		HashMap<String, String> dictionary = new HashMap<String, String>();
